@@ -26,12 +26,12 @@ Click the **clone or download** green button on the top of the repository. It do
 #### For Linux users (like me!):
 Clone the repo via git hub:
 ```
-git clone https://github.com/dracaether/C-.git
+git clone https://github.com/dracaether/python.git
 ```
 
 then go to the folder:
 ```
-cd C-
+cd python
 ```
 
 or open the folder with a file browser of your choice [example, nautilus].
