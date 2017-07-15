@@ -3,11 +3,6 @@
 
 ----
 ## NOTE:
-The source codes uploaded here are **MODIFIED** - meaning, if you just randomly copied and ran the program, it **will NOT RUN**.
-To make the program work, you have to skim through the code aka you fix it ;)
-
-Once you do fix it, however, consider the code yours.
-
 These codes are under the IDGAF Licence. **tl;dr**, do whatever you want at your own leisure. Full license is in this repository under
 *IDGAF_License.txt*. Fair warning that I do not own the text file nor written it.
 
