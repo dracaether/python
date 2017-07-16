@@ -1,4 +1,6 @@
 # python
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
+
 #### this is a repository of all my modified source codes written in Python.
 
 ----
@@ -38,8 +40,7 @@
 
 ----
 ## NOTE:
-These codes are under the IDGAF Licence. **tl;dr**, do whatever you want at your own leisure. Full license is in this repository under
-*IDGAF_License.txt*. Fair warning that I do not own the text file nor written it.
+This repo is under MIT License (see LICENSE.md).
 
 Also, these codes are written in **Python**.
 
