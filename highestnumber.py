@@ -1,7 +1,11 @@
+## this program determines the highest number the user hae entered.
+
+# ask the user for input
 number1=int(input("Please enter the first number: "))
 number2=int(input("Please enter the second number: "))
 number3=int(input("Please enter the third number: "))
 
+# conditions
 if (number1>number2) and (number1>number3):
     print("The highest number is",number1)
 
@@ -25,3 +29,6 @@ elif (number1==number2) and (number1==number3):
 
 else:
     print("Can't compute.")
+
+# optional, uncomment to make it work:
+#exit()
