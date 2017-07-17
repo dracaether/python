@@ -51,6 +51,8 @@ This repository is made to help aspiring programmers and guide them to make thei
 ----
 ### How to download?
 
+### TO DOWNLOAD THE MASTER BRANCH:
+
 #### For Windows users:
 Click the **clone or download** green button on the top of the repository. It downloads a .zip file.
 
@@ -69,4 +71,8 @@ or open the folder with a file browser of your choice [example, nautilus].
 
 #### For Mac users:
 Same with Linux users and Windows users. Pick your poison.
+
+### TO DOWNLOAD THE RELEASE (aka the completed version of the codes):
+
+Go [here](https://github.com/dracaether/python/releases).
 
