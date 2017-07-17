@@ -1,4 +1,4 @@
-## this program determines the highest number the user hae entered.
+## this program determines the highest number the user has entered.
 
 # ask the user for input
 number1=int(input("Please enter the first number: "))
