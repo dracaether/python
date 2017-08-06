@@ -16,6 +16,7 @@ def mainI():
         error_end()
     
 def personal():
+# to collect data regarding personal information
     print("Hello there! Allow us to collect your personal information.")
     choice=input("Would you like to continue? [y/n]: ")
     if (choice == 'n') or (choice == 'N') or (choice == 'no') or (choice == 'No') or (choice == 'NO'):
@@ -69,7 +70,7 @@ def education():
         error_end()
 
 def skills():
-# computer skills
+# to collect data regarding computer skills
     choice=input("Would you like to continue? [y/n]: ")
     if (choice == 'n') or (choice == 'N') or (choice == 'no') or (choice == 'No') or (choice == 'NO'):
         print("Where do you want to go?")
@@ -157,6 +158,7 @@ def age(currentyear,byear):
     print("Thank you for using my program! :)")
     exit()
 
+## the values here are based on themoneyconverter website last Updated: 8/5/2017 5:14:07 AM
 def convert_singaporean(peso):
     sd=peso/37.03020
     print("P",peso,"is equivalent to S$",sd)
@@ -176,6 +178,7 @@ def convert_euro(peso):
     exit()
 
 def salary():
+# codes regarding salary
     choice=input("Would you like to continue? [y/n]: ")
     if (choice == 'n') or (choice == 'N') or (choice == 'no') or (choice == 'No') or (choice == 'NO'):
         print("Where do you want to go?")
@@ -250,7 +253,7 @@ def roman_numerals():
             print("No negative numbers.")
             error_end()
         else:
-            roman(num)
+            roman(num) # uses a combination of for and while loops (nested)
     else:
         error_end()
         
@@ -258,16 +261,16 @@ def roman_numerals():
 
 def roman(num):
     guide = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'),
-           (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]
-    roman = ''
+           (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]   # format [( i , r )]
+    roman = '' # this is where r will put the results
 
-    while num > 0:
-        for i, r in guide:
-            while num >= i:
-                roman += r
-                num -= i
+    while num > 0: # while input is higher than 0:
+        for i, r in guide:    # i = 1000, r = 'M'
+            while num >= i:   # 2000 >= 1000 (while input is higher or equal to the designated number)
+                roman += r    # 1000 = 'M' (add a designated letter every time num>=i)
+                num -= i      # 2000 - 1000 (if num = 0, break the while loop)
 
-    print(roman)
+    print(roman) # 2000 = MM
     print("Thank you for using my program! :)")
     exit()
         
