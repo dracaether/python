@@ -254,6 +254,7 @@ def roman_numerals():
             error_end()
         else:
             roman(num) # uses a combination of for and while loops (nested)
+            
     else:
         error_end()
         
@@ -264,13 +265,13 @@ def roman(num):
            (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]   # format [( i , r )]
     roman = '' # this is where r will put the results
 
-    while num > 0: # while input is higher than 0:
-        for i, r in guide:    # i = 1000, r = 'M'
-            while num >= i:   # 2000 >= 1000 (while input is higher or equal to the designated number)
+    while num > 0: # while 1776 is higher than 0:
+        for i, r in guide:    # [i = 1000, r = 'M'] [i = 500, r = 'D'] [i = 100, r = 'C'] [i = 50, r = 'L'] [i = 10, r = 'X'] [i = 5, r = 'V'] [i = 1, r = 'I']
+            while num >= i:   # 1000 >= 1000 (while input is higher or equal to the designated number) // 6 >= 5 (V) => 1 >= 5 (skips) => 1 >= 1 (I) => ends loop
                 roman += r    # 1000 = 'M' (add a designated letter every time num>=i)
-                num -= i      # 2000 - 1000 (if num = 0, break the while loop)
+                num -= i      # 1000 - 1000 (if num = 0, break the while loop) // 1 >= i (I) => 0 >= i (ends loop)
 
-    print(roman) # 2000 = MM
+    print(roman) # 1776 = MDCCLXXVI
     print("Thank you for using my program! :)")
     exit()
         
