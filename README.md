@@ -6,6 +6,13 @@
 ----
 ### FAQ:
 
+**NEW** Q. What's the [random stuff folder](https://github.com/dracaether/python/tree/master/random%20stuff) for? 
+
+A. I'm cleaning up both my main workstation and back burner laptops to prepare for reinstalling [Arch Linux](https://www.archlinux.org/)(Yes, that's how much of a geek I am... or was it nerd? Let's go with enthusiast)!
+These codes were written during the span of 1 college semester learning Python, but never see the light (until now) due to 
+me focusing on other programs to finish. So, they have their own folder.
+
+----
 Q. Your code is wrong/That is not how you do it!
 
 A. Well excuuuuuuuuse me princess! If I could remember, there are a lot of ways to make a program. If it bothers you this much, then I don't know why you're still here. If you have actual concerns, however, **kindly** [issue](https://github.com/dracaether/python/issues/new) or pm me via [facebook](https://www.facebook.com/dracaether).
