@@ -1,0 +1,16 @@
+Hello, world!
+
+This folder is filled with random codes I have come up with thanks to my boredom (and probably fascination - how to distinguish?).
+
+Reason for uploading: After the semester ends, I will be reinstalling Arch Linux to both of my laptops.
+The main workstation (a battletop setup (laptop + external monitor)) and the back burner laptop.
+
+And also: for my pending MacBook (yet to arrive) to retrieve these files. I'm having a Mac in my arsenal now.
+
+As programmers, we have to be versatile in computers and OSes, right?
+
+Thanks for reading I guess? Oh, and beware of the 'randomcomb.py' file.
+
+...it slows down computers if you lack the ram. :]
+
+Have fun!
