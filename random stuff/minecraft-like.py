@@ -44,7 +44,6 @@ craft = {
 
 
 print("'Crafting Challenge' Game")
-print("More programs at UsingPython.com/programs")
 print("-----------------------------------------\n")
 
 
