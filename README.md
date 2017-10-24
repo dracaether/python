@@ -8,7 +8,7 @@
 
 **-NEW-** Q. What's the [random stuff folder](https://github.com/dracaether/python/tree/master/random%20stuff) for? 
 
-A. I'm cleaning up both my main workstation to prepare for reinstalling Windows 10 for my recreational stuff like gaming, video editing and such. Those are my hobbies aside from coding stuff.
+A. I'm cleaning up my main workstation to prepare for reinstalling Windows 10 for my recreational stuff like gaming, video editing and such. Those are my hobbies aside from coding stuff.
 These codes were written during the span of 1 college semester learning Python, but never see the light (until now) due to 
 me focusing on other programs to finish. So, they have their own folder.
 
